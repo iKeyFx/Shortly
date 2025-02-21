@@ -36,8 +36,8 @@ _Note: Add a screenshot of your solution here. You can use tools like Firefox's 
 
 ### Links
 
-- [Solution URL]
-- [Live Site URL]
+- [[Solution URL](https://github.com/iKeyFx/Shortly)]
+- [[Live Site URL](https://shortly-five.vercel.app/)]
 
 ## My Process
 
