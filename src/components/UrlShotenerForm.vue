@@ -29,7 +29,6 @@ const copyToClipboard = (index) => {
     result.copied = false
   }, 2000)
 }
-
 defineProps({
   form: {
     type: Object,
@@ -53,7 +52,7 @@ defineExpose({
       <div
         class="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 space-y-3 sm:space-y-0"
       >
-        <div class="text-neutral-very-dark-violet border-b sm:border-0 pb-3 sm:pb-0">
+        <div class="text-neutral-very-dark-violet truncate border-b sm:border-0 pb-3 sm:pb-0">
           {{ result.dataURL }}
         </div>
         <div class="flex flex-col sm:flex-row sm:items-center space-y-3 sm:space-y-0 sm:space-x-4">
